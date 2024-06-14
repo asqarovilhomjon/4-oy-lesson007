@@ -1,0 +1,20 @@
+.bootstrap {
+    margin-top: 150px;
+
+    .bootstrap__text {
+        color: $bg-dark;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .btn {
+        background-color: $bg-orange;
+        color: $bg-white;
+    }
+
+    .dark {
+        color: $bg-dark;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

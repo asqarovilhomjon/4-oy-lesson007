@@ -1,0 +1,39 @@
+.navbar {
+    background-color: $bg-dark;
+    min-height: 105px;
+    padding: 30px 0;
+
+    a {
+        color: $bg-white;
+        font-size: 12px;
+        font-weight: 400;
+
+        &:hover {
+            color: $bg-orange;
+            font-size: 14px;
+            font-weight: 500;
+        }
+    }
+
+    &__all {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        .navbar__collection {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            margin-left: 100px;
+        }
+
+        .navbar__icon {
+            display: flex;
+            align-items: center;
+            color: $bg-white;
+            gap: 24px;
+            cursor: pointer;
+            margin-left: 250px;
+        }
+    }
+}
